@@ -146,7 +146,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/aws-lambda-api-jonny-lie/production/1603968951091-2020-10-29T10:55:51.091Z/aws-lambda-api-jonny-lie.zip"
+          "S3Key": "serverless/aws-lambda-api-jonny-lie/production/1603971731098-2020-10-29T11:42:11.098Z/aws-lambda-api-jonny-lie.zip"
         },
         "FunctionName": "aws-lambda-api-jonny-lie-production-api",
         "Handler": "lambda.handler",
@@ -164,14 +164,14 @@
         "ApiLogGroup"
       ]
     },
-    "ApiLambdaVersion8f473l5kfCTT1zVFTO41aXx5qAjDIxI7eJ9GxhDrUqg": {
+    "ApiLambdaVersionfSKvjE5CsNxV3tP05iBwcMSr3FWvQYuPho5jEcD9uw": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "ApiLambdaFunction"
         },
-        "CodeSha256": "35Kydbra2YGwroQLp56vqptr3mLT0wA7l/lThnNNnWs="
+        "CodeSha256": "FCTlDsdgwRSTjgjAsaX0jm8jE+6W/nqq9+faSg+F1G0="
       }
     },
     "ApiGatewayRestApi": {
@@ -290,7 +290,7 @@
         "MethodResponses": []
       }
     },
-    "ApiGatewayDeployment1603968937327": {
+    "ApiGatewayDeployment1603971716654": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -350,7 +350,7 @@
     "ApiLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "ApiLambdaVersion8f473l5kfCTT1zVFTO41aXx5qAjDIxI7eJ9GxhDrUqg"
+        "Ref": "ApiLambdaVersionfSKvjE5CsNxV3tP05iBwcMSr3FWvQYuPho5jEcD9uw"
       }
     },
     "ServiceEndpoint": {
